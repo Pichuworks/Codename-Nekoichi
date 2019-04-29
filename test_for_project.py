@@ -175,7 +175,7 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy')
 
 model.summary()
 
-EPOCHS = 10
+EPOCHS = 1
 
 history = model.fit([seq_idxs, str_idxs], str_outs,
                     batch_size=16,
