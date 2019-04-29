@@ -45,11 +45,11 @@ print('SEQ: total unique tokens:', len(set([word for sent in list_structure for 
 # add one for SOS tag
 fuck_var = max([len(s)+1 for s in list_sequence])
 maxlen = fuck_var
-print('KOR: maximum string len :', max([len(s)+1 for s in list_sequence]))
-print('KOR: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_sequence]) + 2 * np.std([len(s) for s in list_sequence]))
+print('SEQ: maximum string len :', max([len(s)+1 for s in list_sequence]))
+print('SEQ: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_sequence]) + 2 * np.std([len(s) for s in list_sequence]))
 print()
-print('ENG: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_structure]) + 2 * np.std([len(s) for s in list_structure]))
-print('ENG: maximum string len :', max([len(s)+1 for s in list_structure]))
+print('STR: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_structure]) + 2 * np.std([len(s) for s in list_structure]))
+print('STR: maximum string len :', max([len(s)+1 for s in list_structure]))
 
 def make_arrays(tokens, maxvocab=6000, maxlen=12, pad = '_PAD_', unk = '_UNK_', sos = 'Ⓑ', padfrom = 'end'):
     """integer-index and pad tokenized text"""
@@ -114,8 +114,8 @@ STR_EMBED    = 1024             # low long are the character vectors in our inpu
 MAX_OUT_LEN  = str_idxs.shape[1]
 
 # rnn size
-HIDDEN_SIZE = 20              # how big is the recurrent cell
-DROP_RATE   = 0.01             # what is our dropout frequency
+HIDDEN_SIZE = 100              # how big is the recurrent cell
+DROP_RATE   = 0.4             # what is our dropout frequency
 
 print('MAX_IN_LEN = ' + str(MAX_IN_LEN))
 print('MAX_OUT_LEN = ' + str(MAX_OUT_LEN))
@@ -175,7 +175,7 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy')
 
 model.summary()
 
-EPOCHS = 20
+EPOCHS = 10
 
 history = model.fit([seq_idxs, str_idxs], str_outs,
                     batch_size=16,
