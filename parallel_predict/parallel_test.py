@@ -203,7 +203,7 @@ def translate(seq_string_list, maxlen = maxlen, maxout = maxlen, sos = 'Ⓑ', un
     str_length = list()
     for i, seq_str in enumerate(seq_string_list):
         str_length.append(len(seq_str.split(' ')))
-    maxlen = 298
+    maxlen = 149
     maxout = maxlen
 
     seq_tokens = list()
