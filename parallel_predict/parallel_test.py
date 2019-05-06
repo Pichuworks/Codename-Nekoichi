@@ -11,6 +11,7 @@ from keras.layers import Input, Dropout, Embedding, LSTM
 from keras.layers import Activation, dot, TimeDistributed
 from keras.layers import concatenate, Dense, Bidirectional
 from keras.models import model_from_json, load_model
+from keras.callbacks import ModelCheckpoint
 from time import time
 
 str_sequence = list()
@@ -38,19 +39,20 @@ for word in str_structure:
     list_structure.append(word.split(' '))
 
 # get the number of unique tokens in each language
-print('SEQ: total unique tokens:', len(set([word for sent in list_sequence for word in sent])))
-print('SEQ: total unique tokens:', len(set([word for sent in list_structure for word in sent])))
+# print('SEQ: total unique tokens:', len(set([word for sent in list_sequence for word in sent])))
+# print('SEQ: total unique tokens:', len(set([word for sent in list_structure for word in sent])))
 
 # get the maximum input lengths for each language
 # assuming normal distribution, mean + 2 stds = 97.8% of lengths
 # add one for SOS tag
 fuck_var = max([len(s)+1 for s in list_sequence])
 maxlen = fuck_var
-print('SEQ: maximum string len :', max([len(s)+1 for s in list_sequence]))
-print('SEQ: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_sequence]) + 2 * np.std([len(s) for s in list_sequence]))
-print()
-print('STR: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_structure]) + 2 * np.std([len(s) for s in list_structure]))
-print('STR: maximum string len :', max([len(s)+1 for s in list_structure]))
+
+# print('SEQ: maximum string len :', max([len(s)+1 for s in list_sequence]))
+# print('SEQ: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_sequence]) + 2 * np.std([len(s) for s in list_sequence]))
+# print()
+# print('STR: avg len + 2 stdevs :', np.mean([len(s)+1 for s in list_structure]) + 2 * np.std([len(s) for s in list_structure]))
+# print('STR: maximum string len :', max([len(s)+1 for s in list_structure]))
 
 def make_arrays(tokens, maxvocab=6000, maxlen=12, pad = '_PAD_', unk = '_UNK_', sos = 'Ⓑ', padfrom = 'end'):
     """integer-index and pad tokenized text"""
@@ -93,17 +95,17 @@ def make_arrays(tokens, maxvocab=6000, maxlen=12, pad = '_PAD_', unk = '_UNK_', 
 seq_idxs, seq2idx, idx2seq = make_arrays(list_sequence, maxvocab=10, maxlen=fuck_var, padfrom = 'start')
 str_idxs, str2idx, idx2str = make_arrays(list_structure, maxvocab=10, maxlen=fuck_var, padfrom = 'end')
 
-print('seq_idxs = ' + str(seq_idxs))
-print('seq2idx = ' + str(seq2idx))
-print('idx2seq = ' + str(idx2seq))
-print('str_idxs = ' + str(str_idxs))
-print('str2idx = ' + str(str2idx))
-print('idx2str = ' + str(idx2str))
+# print('seq_idxs = ' + str(seq_idxs))
+# print('seq2idx = ' + str(seq2idx))
+# print('idx2seq = ' + str(idx2seq))
+# print('str_idxs = ' + str(str_idxs))
+# print('str2idx = ' + str(str2idx))
+# print('idx2str = ' + str(idx2str))
 
 # create output targets from decoder inputs
 # this shifts the alignment my one (= predict *next* character) and adds extra dim
 str_outs = np.expand_dims(np.hstack((str_idxs[:,1:], np.zeros(shape=(str_idxs.shape[0], 1)))), axis=-1)
-print('str_outs = ' + str(str_outs))
+# print('str_outs = ' + str(str_outs))
 
 # hyperparameters
 SEQ_VOCAB  = len(seq2idx)      # how many unique words in the input language
@@ -118,8 +120,8 @@ MAX_OUT_LEN  = str_idxs.shape[1]
 HIDDEN_SIZE = 300              # how big is the recurrent cell
 DROP_RATE   = 0.4             # what is our dropout frequency
 
-print('MAX_IN_LEN = ' + str(MAX_IN_LEN))
-print('MAX_OUT_LEN = ' + str(MAX_OUT_LEN))
+# print('MAX_IN_LEN = ' + str(MAX_IN_LEN))
+# print('MAX_OUT_LEN = ' + str(MAX_OUT_LEN))
 
 # bidirectional encoder
 encoder_input = Input(shape=(MAX_IN_LEN,), name='encoder_input')
@@ -174,13 +176,20 @@ model = Model([encoder_input, decoder_input], [output])
 # compile the model with defined optimizer and loss function
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy')
 
-model.summary()
+# model.summary()
 
 EPOCHS = 50
 
+# checkpoint
+filepath="weights.best.hdf5"
+checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1, save_best_only=True, mode='min')
+callbacks_list = [checkpoint]
+
 history = model.fit([seq_idxs, str_idxs], str_outs,
-                    batch_size=32,
+                    batch_size=128,
                     epochs=EPOCHS,
+                    validation_split=0.33,
+                    callbacks=callbacks_list,
                     verbose=1)
 
 # save
@@ -271,8 +280,8 @@ with open('test_set.txt') as f:
 
 print(test_str_seq)
 
-BATCH_TEST = 32
-test_str_seq = [ test_str_seq[i:i+BATCH_TEST] for i in range(0, len(test_str_seq), BATCH_TEST)]
+BATCH_TEST = 128
+test_str_seq = [test_str_seq[i:i+BATCH_TEST] for i in range(0, len(test_str_seq), BATCH_TEST)]
 
 for i, test_str_list in enumerate(test_str_seq):
     print('predict epoch '+ str(i))
