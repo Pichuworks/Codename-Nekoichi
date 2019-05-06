@@ -17,6 +17,10 @@ from time import time
 str_sequence = list()
 str_structure = list()
 
+# 测试集做测试
+test_str_seq = list()
+test_str_str = list()
+
 with open('sequence_new_150_np.txt') as f:
     for line in f.readlines():
         line = line.strip() 
@@ -27,16 +31,34 @@ with open('structure_new_150_np.txt') as f:
         line = line.strip() 
         str_structure.append(str(line))
 
+with open('test_set.txt') as f:
+    for line in f.readlines():
+        line = line.strip() 
+        test_str_seq.append(str(line))
+
+with open('test_ans.txt') as f:
+    for line in f.readlines():
+        line = line.strip() 
+        test_str_str.append(str(line))
+
 # create sequence & structure data matrix
 
 list_sequence = list()
 list_structure = list()
+list_test_seq = list()
+list_test_str = list()
 
 for word in str_sequence:
     list_sequence.append(word.split(' '))
 
 for word in str_structure:
     list_structure.append(word.split(' '))
+
+for word in test_str_seq:
+    list_test_seq.append(word.split(' '))
+
+for word in test_str_str:
+    list_test_str.append(word.split(' '))
 
 # get the number of unique tokens in each language
 # print('SEQ: total unique tokens:', len(set([word for sent in list_sequence for word in sent])))
@@ -95,6 +117,9 @@ def make_arrays(tokens, maxvocab=6000, maxlen=12, pad = '_PAD_', unk = '_UNK_', 
 seq_idxs, seq2idx, idx2seq = make_arrays(list_sequence, maxvocab=10, maxlen=fuck_var, padfrom = 'start')
 str_idxs, str2idx, idx2str = make_arrays(list_structure, maxvocab=10, maxlen=fuck_var, padfrom = 'end')
 
+test_seq_idxs, test_seq2idx, test_idx2seq = make_arrays(list_test_seq, maxvocab=10, maxlen=fuck_var, padfrom = 'start')
+test_str_idxs, test_str2idx, test_idx2str = make_arrays(list_test_str, maxvocab=10, maxlen=fuck_var, padfrom = 'end')
+
 # print('seq_idxs = ' + str(seq_idxs))
 # print('seq2idx = ' + str(seq2idx))
 # print('idx2seq = ' + str(idx2seq))
@@ -105,6 +130,7 @@ str_idxs, str2idx, idx2str = make_arrays(list_structure, maxvocab=10, maxlen=fuc
 # create output targets from decoder inputs
 # this shifts the alignment my one (= predict *next* character) and adds extra dim
 str_outs = np.expand_dims(np.hstack((str_idxs[:,1:], np.zeros(shape=(str_idxs.shape[0], 1)))), axis=-1)
+test_str_outs = np.expand_dims(np.hstack((test_str_idxs[:,1:], np.zeros(shape=(test_str_idxs.shape[0], 1)))), axis=-1)
 # print('str_outs = ' + str(str_outs))
 
 # hyperparameters
@@ -185,10 +211,17 @@ filepath="weights.best.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 
+# history = model.fit([seq_idxs, str_idxs], str_outs,
+#                     batch_size=128,
+#                     epochs=EPOCHS,
+#                     validation_split=0.33,
+#                     callbacks=callbacks_list,
+#                     verbose=1)
+
 history = model.fit([seq_idxs, str_idxs], str_outs,
                     batch_size=128,
                     epochs=EPOCHS,
-                    validation_split=0.33,
+                    validation_data=([test_seq_idxs, test_str_idxs], test_str_outs),
                     callbacks=callbacks_list,
                     verbose=1)
 
@@ -204,6 +237,7 @@ model.save('seq2str_{}_epochs.h5'.format(EPOCHS))
 
 # model = load_model('seq2str_{}_epochs.h5'.format(EPOCHS))
 # model.load_weights('seq2str_{}_epochs.h5'.format(EPOCHS))
+model.load_weights(filepath)
 
 # attention
 heatmapmodel = Model([encoder_input, decoder_input], [output, attention])
