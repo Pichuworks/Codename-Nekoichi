@@ -288,7 +288,10 @@ def translate(seq_string_list, maxlen = maxlen, maxout = maxlen, sos = 'Ⓑ', un
     str_toks = decode(output, idx2str)
 
     for i, var in enumerate(str_toks):
-        var = var[:str_length[i]]
+        if len(var) > str_length[i]:
+            var = var[:str_length[i]-1]
+        elif len(var) < str_length[i]:
+            var = var + ['.' for i in range(str_length[i] - len(var))] 
         print('input :', seq_string_list[i])
         print('output: ', ''.join(var))
         print('')
