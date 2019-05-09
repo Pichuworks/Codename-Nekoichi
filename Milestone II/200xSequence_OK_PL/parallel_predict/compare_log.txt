@@ -1,1568 +1,2465 @@
 compare epoch 0
 =====================
-line count: 82
-corrent line count: 49
-only acc = 0.6463414634146342
-line acc = 0.5975609756097561
+line actual pairs: 19
+line predict pairs: 14
+line error pairs: 1
+line true positive: 1
+line false negative: 14
+line false positive: 14
+line sensitivity: 0.06666666666666667
+line specificity: 0.06666666666666667
 
 compare epoch 1
 =====================
-line count: 55
-corrent line count: 55
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 10
+line predict pairs: 10
+line error pairs: 0
+line true positive: 11
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 2
 =====================
-line count: 81
-corrent line count: 49
-only acc = 0.6049382716049383
-line acc = 0.6049382716049383
+line actual pairs: 15
+line predict pairs: 14
+line error pairs: 0
+line true positive: 1
+line false negative: 17
+line false positive: 15
+line sensitivity: 0.05555555555555555
+line specificity: 0.0625
 
 compare epoch 3
 =====================
-line count: 119
-corrent line count: 96
-only acc = 0.8067226890756303
-line acc = 0.8067226890756303
+line actual pairs: 40
+line predict pairs: 39
+line error pairs: 1
+line true positive: 1
+line false negative: 12
+line false positive: 11
+line sensitivity: 0.07692307692307693
+line specificity: 0.08333333333333333
 
 compare epoch 4
 =====================
-line count: 143
-corrent line count: 143
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 39
+line predict pairs: 39
+line error pairs: 0
+line true positive: 40
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 5
 =====================
-line count: 117
-corrent line count: 117
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 37
+line predict pairs: 37
+line error pairs: 0
+line true positive: 37
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 6
 =====================
-line count: 120
-corrent line count: 120
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 39
+line predict pairs: 39
+line error pairs: 0
+line true positive: 40
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 7
 =====================
-line count: 122
-corrent line count: 122
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 39
+line predict pairs: 39
+line error pairs: 0
+line true positive: 40
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 8
 =====================
-line count: 120
-corrent line count: 120
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 40
+line predict pairs: 40
+line error pairs: 1
+line true positive: 40
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 9
 =====================
-line count: 127
-corrent line count: 90
-only acc = 0.7086614173228346
-line acc = 0.7086614173228346
+line actual pairs: 23
+line predict pairs: 14
+line error pairs: 1
+line true positive: 1
+line false negative: 27
+line false positive: 9
+line sensitivity: 0.03571428571428571
+line specificity: 0.1
 
 compare epoch 10
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 11
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 12
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 13
 =====================
-line count: 78
-corrent line count: 75
-only acc = 0.9615384615384616
-line acc = 0.9615384615384616
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 14
 =====================
-line count: 73
-corrent line count: 64
-only acc = 0.8904109589041096
-line acc = 0.8767123287671232
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 15
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 16
 =====================
-line count: 73
-corrent line count: 70
-only acc = 0.958904109589041
-line acc = 0.958904109589041
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 17
 =====================
-line count: 76
-corrent line count: 64
-only acc = 0.8552631578947368
-line acc = 0.8421052631578947
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 18
 =====================
-line count: 79
-corrent line count: 76
-only acc = 0.9620253164556962
-line acc = 0.9620253164556962
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 19
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 20
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 21
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 22
 =====================
-line count: 77
-corrent line count: 68
-only acc = 0.8961038961038961
-line acc = 0.8831168831168831
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 23
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 24
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 25
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 26
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 27
 =====================
-line count: 76
-corrent line count: 64
-only acc = 0.8552631578947368
-line acc = 0.8421052631578947
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 28
 =====================
-line count: 77
-corrent line count: 65
-only acc = 0.8571428571428571
-line acc = 0.8441558441558441
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 29
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 30
 =====================
-line count: 78
-corrent line count: 69
-only acc = 0.8974358974358975
-line acc = 0.8846153846153846
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 31
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 32
 =====================
-line count: 73
-corrent line count: 61
-only acc = 0.8493150684931506
-line acc = 0.8356164383561644
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 33
 =====================
-line count: 73
-corrent line count: 61
-only acc = 0.8493150684931506
-line acc = 0.8356164383561644
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 34
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 35
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 36
 =====================
-line count: 78
-corrent line count: 69
-only acc = 0.8974358974358975
-line acc = 0.8846153846153846
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 37
 =====================
-line count: 78
-corrent line count: 77
-only acc = 0.9871794871794872
-line acc = 0.9871794871794872
+line actual pairs: 21
+line predict pairs: 21
+line error pairs: 1
+line true positive: 22
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 38
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 39
 =====================
-line count: 75
-corrent line count: 72
-only acc = 0.96
-line acc = 0.96
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 40
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 41
 =====================
-line count: 77
-corrent line count: 65
-only acc = 0.8571428571428571
-line acc = 0.8441558441558441
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 42
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 43
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 44
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 45
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 46
 =====================
-line count: 73
-corrent line count: 53
-only acc = 0.7534246575342466
-line acc = 0.726027397260274
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 9
+line false positive: 9
+line sensitivity: 0.1
+line specificity: 0.1
 
 compare epoch 47
 =====================
-line count: 74
-corrent line count: 62
-only acc = 0.8513513513513513
-line acc = 0.8378378378378378
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 48
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 49
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 50
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 51
 =====================
-line count: 77
-corrent line count: 68
-only acc = 0.8961038961038961
-line acc = 0.8831168831168831
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 52
 =====================
-line count: 77
-corrent line count: 68
-only acc = 0.8961038961038961
-line acc = 0.8831168831168831
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 53
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 54
 =====================
-line count: 76
-corrent line count: 64
-only acc = 0.8552631578947368
-line acc = 0.8421052631578947
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 55
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 56
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 57
 =====================
-line count: 78
-corrent line count: 75
-only acc = 0.9615384615384616
-line acc = 0.9615384615384616
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 58
 =====================
-line count: 73
-corrent line count: 61
-only acc = 0.8493150684931506
-line acc = 0.8356164383561644
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 59
 =====================
-line count: 73
-corrent line count: 61
-only acc = 0.8493150684931506
-line acc = 0.8356164383561644
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 60
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 61
 =====================
-line count: 74
-corrent line count: 65
-only acc = 0.8918918918918919
-line acc = 0.8783783783783784
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 62
 =====================
-line count: 74
-corrent line count: 65
-only acc = 0.8918918918918919
-line acc = 0.8783783783783784
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 63
 =====================
-line count: 74
-corrent line count: 65
-only acc = 0.8918918918918919
-line acc = 0.8783783783783784
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 64
 =====================
-line count: 79
-corrent line count: 67
-only acc = 0.8607594936708861
-line acc = 0.8481012658227848
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 65
 =====================
-line count: 79
-corrent line count: 79
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 66
 =====================
-line count: 76
-corrent line count: 64
-only acc = 0.8552631578947368
-line acc = 0.8421052631578947
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 67
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 68
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 69
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 70
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 71
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 72
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 73
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 74
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 75
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 76
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 77
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 78
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 79
 =====================
-line count: 77
-corrent line count: 68
-only acc = 0.8961038961038961
-line acc = 0.8831168831168831
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 80
 =====================
-line count: 76
-corrent line count: 67
-only acc = 0.8947368421052632
-line acc = 0.881578947368421
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 81
 =====================
-line count: 76
-corrent line count: 64
-only acc = 0.8552631578947368
-line acc = 0.8421052631578947
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 82
 =====================
-line count: 72
-corrent line count: 72
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 83
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 22
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 84
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 22
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 85
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 86
 =====================
-line count: 78
-corrent line count: 69
-only acc = 0.8974358974358975
-line acc = 0.8846153846153846
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 87
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 88
 =====================
-line count: 74
-corrent line count: 65
-only acc = 0.8918918918918919
-line acc = 0.8783783783783784
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 89
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 90
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 91
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 92
 =====================
-line count: 78
-corrent line count: 75
-only acc = 0.9615384615384616
-line acc = 0.9615384615384616
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 93
 =====================
-line count: 76
-corrent line count: 64
-only acc = 0.8552631578947368
-line acc = 0.8421052631578947
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 94
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 95
 =====================
-line count: 74
-corrent line count: 65
-only acc = 0.8918918918918919
-line acc = 0.8783783783783784
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 96
 =====================
-line count: 73
-corrent line count: 61
-only acc = 0.8493150684931506
-line acc = 0.8356164383561644
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 97
 =====================
-line count: 82
-corrent line count: 70
-only acc = 0.8658536585365854
-line acc = 0.8536585365853658
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 98
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 99
 =====================
-line count: 75
-corrent line count: 66
-only acc = 0.8933333333333333
-line acc = 0.88
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 100
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 101
 =====================
-line count: 75
-corrent line count: 63
-only acc = 0.8533333333333334
-line acc = 0.84
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 102
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 103
 =====================
-line count: 69
-corrent line count: 40
-only acc = 0.6086956521739131
-line acc = 0.5797101449275363
+line actual pairs: 17
+line predict pairs: 20
+line error pairs: 1
+line true positive: 1
+line false negative: 10
+line false positive: 16
+line sensitivity: 0.09090909090909091
+line specificity: 0.058823529411764705
 
 compare epoch 104
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 105
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 106
 =====================
-line count: 73
-corrent line count: 61
-only acc = 0.8493150684931506
-line acc = 0.8356164383561644
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 107
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 108
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 109
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 110
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 111
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 112
 =====================
-line count: 72
-corrent line count: 72
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 113
 =====================
-line count: 36
-corrent line count: 36
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 4
+line predict pairs: 4
+line error pairs: 0
+line true positive: 5
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 114
 =====================
-line count: 35
-corrent line count: 31
-only acc = 0.8857142857142857
-line acc = 0.8857142857142857
+line actual pairs: 5
+line predict pairs: 5
+line error pairs: 0
+line true positive: 1
+line false negative: 2
+line false positive: 2
+line sensitivity: 0.3333333333333333
+line specificity: 0.3333333333333333
 
 compare epoch 115
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 116
 =====================
-line count: 42
-corrent line count: 39
-only acc = 0.9285714285714286
-line acc = 0.9285714285714286
+line actual pairs: 6
+line predict pairs: 5
+line error pairs: 1
+line true positive: 5
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.625
+line specificity: 0.8333333333333334
 
 compare epoch 117
 =====================
-line count: 77
-corrent line count: 74
-only acc = 0.961038961038961
-line acc = 0.961038961038961
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 118
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 119
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 120
 =====================
-line count: 72
-corrent line count: 72
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 121
 =====================
-line count: 72
-corrent line count: 70
-only acc = 0.9722222222222222
-line acc = 0.9722222222222222
+line actual pairs: 20
+line predict pairs: 21
+line error pairs: 0
+line true positive: 20
+line false negative: 0
+line false positive: 2
+line sensitivity: 1.0
+line specificity: 0.9090909090909091
 
 compare epoch 122
 =====================
-line count: 75
-corrent line count: 72
-only acc = 0.96
-line acc = 0.96
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 123
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 124
 =====================
-line count: 73
-corrent line count: 64
-only acc = 0.8904109589041096
-line acc = 0.8767123287671232
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 125
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 126
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 127
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 128
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 129
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 130
 =====================
-line count: 79
-corrent line count: 69
-only acc = 0.8860759493670886
-line acc = 0.8734177215189873
+line actual pairs: 21
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 131
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 132
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 133
 =====================
-line count: 76
-corrent line count: 73
-only acc = 0.9605263157894737
-line acc = 0.9605263157894737
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 134
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 135
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 136
 =====================
-line count: 75
-corrent line count: 66
-only acc = 0.8933333333333333
-line acc = 0.88
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 137
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 138
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 139
 =====================
-line count: 76
-corrent line count: 67
-only acc = 0.8947368421052632
-line acc = 0.881578947368421
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 140
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 141
 =====================
-line count: 79
-corrent line count: 70
-only acc = 0.8987341772151899
-line acc = 0.8860759493670886
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 142
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 143
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 144
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 145
 =====================
-line count: 72
-corrent line count: 72
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 146
 =====================
-line count: 72
-corrent line count: 72
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 147
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 148
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 149
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 150
 =====================
-line count: 76
-corrent line count: 67
-only acc = 0.8947368421052632
-line acc = 0.881578947368421
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 151
 =====================
-line count: 70
-corrent line count: 58
-only acc = 0.8428571428571429
-line acc = 0.8285714285714286
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 152
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 21
+line predict pairs: 21
+line error pairs: 0
+line true positive: 22
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 153
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 154
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 155
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 156
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 157
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 158
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 159
 =====================
-line count: 78
-corrent line count: 66
-only acc = 0.8589743589743589
-line acc = 0.8461538461538461
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 160
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 161
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 162
 =====================
-line count: 73
-corrent line count: 64
-only acc = 0.8904109589041096
-line acc = 0.8767123287671232
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 163
 =====================
-line count: 76
-corrent line count: 67
-only acc = 0.8947368421052632
-line acc = 0.881578947368421
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 164
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 165
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 166
 =====================
-line count: 76
-corrent line count: 67
-only acc = 0.8947368421052632
-line acc = 0.881578947368421
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 167
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 168
 =====================
-line count: 73
-corrent line count: 64
-only acc = 0.8904109589041096
-line acc = 0.8767123287671232
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 169
 =====================
-line count: 73
-corrent line count: 73
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 170
 =====================
-line count: 72
-corrent line count: 72
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 171
 =====================
-line count: 77
-corrent line count: 77
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 172
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 173
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 174
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 175
 =====================
-line count: 71
-corrent line count: 59
-only acc = 0.8450704225352113
-line acc = 0.8309859154929577
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 176
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 177
 =====================
-line count: 82
-corrent line count: 71
-only acc = 0.8780487804878049
-line acc = 0.8658536585365854
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 5
+line false positive: 5
+line sensitivity: 0.16666666666666666
+line specificity: 0.16666666666666666
 
 compare epoch 178
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 179
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 180
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 181
 =====================
-line count: 79
-corrent line count: 70
-only acc = 0.8987341772151899
-line acc = 0.8860759493670886
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 182
 =====================
-line count: 79
-corrent line count: 76
-only acc = 0.9620253164556962
-line acc = 0.9620253164556962
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 183
 =====================
-line count: 79
-corrent line count: 70
-only acc = 0.8987341772151899
-line acc = 0.8860759493670886
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 184
 =====================
-line count: 72
-corrent line count: 72
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 185
 =====================
-line count: 71
-corrent line count: 71
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 186
 =====================
-line count: 22
-corrent line count: 21
-only acc = 0.9545454545454546
-line acc = 0.9545454545454546
+line actual pairs: 5
+line predict pairs: 4
+line error pairs: 1
+line true positive: 1
+line false negative: 2
+line false positive: 0
+line sensitivity: 0.3333333333333333
+line specificity: 1.0
 
 compare epoch 187
 =====================
-line count: 17
-corrent line count: 16
-only acc = 0.9411764705882353
-line acc = 0.9411764705882353
+line actual pairs: 5
+line predict pairs: 5
+line error pairs: 1
+line true positive: 1
+line false negative: 1
+line false positive: 1
+line sensitivity: 0.5
+line specificity: 0.5
 
 compare epoch 188
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 189
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 190
 =====================
-line count: 70
-corrent line count: 58
-only acc = 0.8428571428571429
-line acc = 0.8285714285714286
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 6
+line false positive: 5
+line sensitivity: 0.14285714285714285
+line specificity: 0.16666666666666666
 
 compare epoch 191
 =====================
-line count: 73
-corrent line count: 61
-only acc = 0.8493150684931506
-line acc = 0.8356164383561644
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 1
+line false negative: 7
+line false positive: 5
+line sensitivity: 0.125
+line specificity: 0.16666666666666666
 
 compare epoch 192
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 193
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 194
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 195
 =====================
-line count: 71
-corrent line count: 68
-only acc = 0.9577464788732394
-line acc = 0.9577464788732394
+line actual pairs: 22
+line predict pairs: 21
+line error pairs: 1
+line true positive: 12
+line false negative: 3
+line false positive: 1
+line sensitivity: 0.8
+line specificity: 0.9230769230769231
 
 compare epoch 196
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 197
 =====================
-line count: 73
-corrent line count: 34
-only acc = 0.6027397260273972
-line acc = 0.4657534246575342
+line actual pairs: 22
+line predict pairs: 36
+line error pairs: 1
+line true positive: 1
+line false negative: 15
+line false positive: 14
+line sensitivity: 0.0625
+line specificity: 0.06666666666666667
 
 compare epoch 198
 =====================
-line count: 75
-corrent line count: 59
-only acc = 0.8
-line acc = 0.7866666666666666
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 7
+line false positive: 8
+line sensitivity: 0.125
+line specificity: 0.1111111111111111
 
 compare epoch 199
 =====================
-line count: 74
-corrent line count: 65
-only acc = 0.8918918918918919
-line acc = 0.8783783783783784
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 200
 =====================
-line count: 74
-corrent line count: 74
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 201
 =====================
-line count: 73
-corrent line count: 62
-only acc = 0.863013698630137
-line acc = 0.8493150684931506
+line actual pairs: 15
+line predict pairs: 15
+line error pairs: 0
+line true positive: 1
+line false negative: 5
+line false positive: 5
+line sensitivity: 0.16666666666666666
+line specificity: 0.16666666666666666
 
 compare epoch 202
 =====================
-line count: 73
-corrent line count: 64
-only acc = 0.8904109589041096
-line acc = 0.8767123287671232
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 1
+line false negative: 4
+line false positive: 4
+line sensitivity: 0.2
+line specificity: 0.2
 
 compare epoch 203
 =====================
-line count: 71
-corrent line count: 71
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 204
 =====================
-line count: 76
-corrent line count: 76
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 205
 =====================
-line count: 75
-corrent line count: 75
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 206
 =====================
-line count: 78
-corrent line count: 78
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 23
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 207
 =====================
-line count: 124
-corrent line count: 124
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 208
 =====================
-line count: 126
-corrent line count: 87
-only acc = 0.6984126984126984
-line acc = 0.6904761904761905
+line actual pairs: 38
+line predict pairs: 40
+line error pairs: 0
+line true positive: 1
+line false negative: 17
+line false positive: 21
+line sensitivity: 0.05555555555555555
+line specificity: 0.045454545454545456
 
 compare epoch 209
 =====================
-line count: 139
-corrent line count: 103
-only acc = 0.7482014388489209
-line acc = 0.7410071942446043
+line actual pairs: 38
+line predict pairs: 39
+line error pairs: 0
+line true positive: 1
+line false negative: 17
+line false positive: 18
+line sensitivity: 0.05555555555555555
+line specificity: 0.05263157894736842
 
 compare epoch 210
 =====================
-line count: 126
-corrent line count: 126
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 211
 =====================
-line count: 136
-corrent line count: 114
-only acc = 0.8382352941176471
-line acc = 0.8382352941176471
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 1
+line false negative: 11
+line false positive: 11
+line sensitivity: 0.08333333333333333
+line specificity: 0.08333333333333333
 
 compare epoch 212
 =====================
-line count: 122
-corrent line count: 100
-only acc = 0.819672131147541
-line acc = 0.819672131147541
+line actual pairs: 32
+line predict pairs: 32
+line error pairs: 0
+line true positive: 1
+line false negative: 11
+line false positive: 11
+line sensitivity: 0.08333333333333333
+line specificity: 0.08333333333333333
 
 compare epoch 213
 =====================
-line count: 122
-corrent line count: 122
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 214
 =====================
-line count: 112
-corrent line count: 95
-only acc = 0.8571428571428571
-line acc = 0.8482142857142857
+line actual pairs: 38
+line predict pairs: 36
+line error pairs: 1
+line true positive: 16
+line false negative: 8
+line false positive: 8
+line sensitivity: 0.6666666666666666
+line specificity: 0.6666666666666666
 
 compare epoch 215
 =====================
-line count: 115
-corrent line count: 115
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 216
 =====================
-line count: 123
-corrent line count: 123
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 217
 =====================
-line count: 113
-corrent line count: 94
-only acc = 0.831858407079646
-line acc = 0.831858407079646
+line actual pairs: 38
+line predict pairs: 35
+line error pairs: 0
+line true positive: 16
+line false negative: 11
+line false positive: 8
+line sensitivity: 0.5925925925925926
+line specificity: 0.6666666666666666
 
 compare epoch 218
 =====================
-line count: 122
-corrent line count: 122
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare epoch 219
 =====================
-line count: 123
-corrent line count: 121
-only acc = 0.983739837398374
-line acc = 0.983739837398374
+line actual pairs: 38
+line predict pairs: 39
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 2
+line sensitivity: 1.0
+line specificity: 0.9512195121951219
 
 compare epoch 220
 =====================
-line count: 119
-corrent line count: 54
-only acc = 0.48739495798319327
-line acc = 0.453781512605042
+line actual pairs: 38
+line predict pairs: 28
+line error pairs: 0
+line true positive: 1
+line false negative: 40
+line false positive: 21
+line sensitivity: 0.024390243902439025
+line specificity: 0.045454545454545456
 
 compare epoch 221
 =====================
-line count: 129
-corrent line count: 55
-only acc = 0.4263565891472868
-line acc = 0.4263565891472868
+line actual pairs: 38
+line predict pairs: 24
+line error pairs: 0
+line true positive: 1
+line false negative: 56
+line false positive: 18
+line sensitivity: 0.017543859649122806
+line specificity: 0.05263157894736842
 
 compare epoch 222
 =====================
-line count: 126
-corrent line count: 126
-only acc = 1.0
-line acc = 1.0
+line actual pairs: 38
+line predict pairs: 38
+line error pairs: 0
+line true positive: 39
+line false negative: 0
+line false positive: 0
+line sensitivity: 1.0
+line specificity: 1.0
 
 compare result
 =====================
-all count: 17695
-corrent all count: 16565
-all only acc = 0.936196665724781
-all acc = 0.9361401525854761
-average acc = 0.9449990028036388
+all actual pairs: 5135
+all predict pairs: 5075
+all error pairs: 47
+all true positive: 3587
+all false negative: 600
+all false positive: 472
+all sensitivity: 0.8566993073799857
+all specificity: 0.8837152007883715
+average sensitivity: 0.7173578979593215
+average specificity: 0.7173578979593215

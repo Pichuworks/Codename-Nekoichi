@@ -5,7 +5,7 @@ Fuck RNN
 str_src = list()
 str_dist = list()
 
-with open('test_ans.txt') as f:
+with open('structure_150_wp_test.txt') as f:
     for line in f.readlines():
         line = line.strip() 
         str_src.append(str(line))
@@ -59,6 +59,7 @@ for i, sentence in enumerate(list_src):
 
 for i, sentence in enumerate(list_dist):
     stack = []
+    stack_p = []
     tmp_dist_pair = [0 for i in range(len(sentence))]
     sent_pair = 0
     err_pair = 0
@@ -75,12 +76,33 @@ for i, sentence in enumerate(list_dist):
                 sent_pair = sent_pair + 1
             else:
                 stack.append([')', j])
+        elif char == '[':
+            stack_p.append(['[', j])
+        elif char == ']':
+            if len(stack) != 0:
+                stack_pop = stack_p.pop()
+                tmp_dist_pair[j] = stack_pop[1] + 1
+                tmp_dist_pair[stack_pop[1]] = j + 1
+                # pair
+                all_pred_pair = all_pred_pair + 1
+                sent_pair = sent_pair + 1
+            else:
+                stack_p.append([']', j])
+
     if len(stack) != 0:
         for i in range(len(stack)):
             stack_pop = stack.pop()
             tmp_dist_pair[j] = -1
             all_err_pair = all_err_pair + 1
             err_pair = err_pair + 1
+
+    if len(stack_p) != 0:
+        for i in range(len(stack_p)):
+            stack_pop = stack_p.pop()
+            tmp_dist_pair[j] = -1
+            all_err_pair = all_err_pair + 1
+            err_pair = err_pair + 1 
+
     list_dist_pair.append(tmp_dist_pair)
     list_pred_pair.append(sent_pair)
     list_err_pair.append(err_pair)
