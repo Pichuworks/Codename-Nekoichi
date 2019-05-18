@@ -1,0 +1,402 @@
+compare epoch 1
+=====================
+line actual pairs: 21
+line predict pairs: 21
+line error pairs: 0
+line true positive: 21
+line true negative: 17
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 2
+=====================
+line actual pairs: 32
+line predict pairs: 32
+line error pairs: 0
+line true positive: 32
+line true negative: 30
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 3
+=====================
+line actual pairs: 35
+line predict pairs: 32
+line error pairs: 0
+line true positive: 32
+line true negative: 24
+line false positive: 0
+line false negative: 6
+line SEN: 84.21%
+line PPV: 100.00%
+line MCC: 82.08%
+
+compare epoch 4
+=====================
+line actual pairs: 36
+line predict pairs: 32
+line error pairs: 0
+line true positive: 32
+line true negative: 22
+line false positive: 0
+line false negative: 8
+line SEN: 80.00%
+line PPV: 100.00%
+line MCC: 76.59%
+
+compare epoch 5
+=====================
+line actual pairs: 35
+line predict pairs: 35
+line error pairs: 0
+line true positive: 35
+line true negative: 24
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 6
+=====================
+line actual pairs: 19
+line predict pairs: 19
+line error pairs: 0
+line true positive: 0
+line true negative: 41
+line false positive: 20
+line false negative: 2
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -12.35%
+
+compare epoch 7
+=====================
+line actual pairs: 19
+line predict pairs: 19
+line error pairs: 0
+line true positive: 0
+line true negative: 43
+line false positive: 20
+line false negative: 3
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -14.39%
+
+compare epoch 8
+=====================
+line actual pairs: 19
+line predict pairs: 19
+line error pairs: 0
+line true positive: 14
+line true negative: 40
+line false positive: 6
+line false negative: 1
+line SEN: 93.33%
+line PPV: 70.00%
+line MCC: 73.65%
+
+compare epoch 9
+=====================
+line actual pairs: 19
+line predict pairs: 19
+line error pairs: 0
+line true positive: 0
+line true negative: 47
+line false positive: 20
+line false negative: 10
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -22.88%
+
+compare epoch 10
+=====================
+line actual pairs: 19
+line predict pairs: 19
+line error pairs: 0
+line true positive: 0
+line true negative: 43
+line false positive: 20
+line false negative: 3
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -14.39%
+
+compare epoch 11
+=====================
+line actual pairs: 9
+line predict pairs: 9
+line error pairs: 0
+line true positive: 9
+line true negative: 13
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 12
+=====================
+line actual pairs: 15
+line predict pairs: 15
+line error pairs: 0
+line true positive: 15
+line true negative: 25
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 13
+=====================
+line actual pairs: 16
+line predict pairs: 16
+line error pairs: 0
+line true positive: 16
+line true negative: 26
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 14
+=====================
+line actual pairs: 16
+line predict pairs: 16
+line error pairs: 0
+line true positive: 16
+line true negative: 25
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 15
+=====================
+line actual pairs: 18
+line predict pairs: 18
+line error pairs: 0
+line true positive: 18
+line true negative: 25
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 16
+=====================
+line actual pairs: 18
+line predict pairs: 18
+line error pairs: 0
+line true positive: 18
+line true negative: 27
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 17
+=====================
+line actual pairs: 16
+line predict pairs: 16
+line error pairs: 0
+line true positive: 16
+line true negative: 26
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 18
+=====================
+line actual pairs: 18
+line predict pairs: 18
+line error pairs: 0
+line true positive: 18
+line true negative: 26
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 19
+=====================
+line actual pairs: 28
+line predict pairs: 28
+line error pairs: 0
+line true positive: 28
+line true negative: 37
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 20
+=====================
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 22
+line true negative: 48
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 21
+=====================
+line actual pairs: 22
+line predict pairs: 22
+line error pairs: 0
+line true positive: 22
+line true negative: 48
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 22
+=====================
+line actual pairs: 30
+line predict pairs: 30
+line error pairs: 0
+line true positive: 0
+line true negative: 38
+line false positive: 31
+line false negative: 10
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -30.59%
+
+compare epoch 23
+=====================
+line actual pairs: 28
+line predict pairs: 28
+line error pairs: 0
+line true positive: 0
+line true negative: 43
+line false positive: 29
+line false negative: 10
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -27.57%
+
+compare epoch 24
+=====================
+line actual pairs: 30
+line predict pairs: 30
+line error pairs: 0
+line true positive: 0
+line true negative: 38
+line false positive: 31
+line false negative: 10
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -30.59%
+
+compare epoch 25
+=====================
+line actual pairs: 30
+line predict pairs: 30
+line error pairs: 0
+line true positive: 30
+line true negative: 44
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 26
+=====================
+line actual pairs: 24
+line predict pairs: 24
+line error pairs: 0
+line true positive: 24
+line true negative: 44
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 27
+=====================
+line actual pairs: 28
+line predict pairs: 28
+line error pairs: 0
+line true positive: 28
+line true negative: 42
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 28
+=====================
+line actual pairs: 12
+line predict pairs: 12
+line error pairs: 0
+line true positive: 12
+line true negative: 36
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 29
+=====================
+line actual pairs: 12
+line predict pairs: 12
+line error pairs: 0
+line true positive: 12
+line true negative: 33
+line false positive: 0
+line false negative: 0
+line SEN: 100.00%
+line PPV: 100.00%
+line MCC: 100.00%
+
+compare epoch 30
+=====================
+line actual pairs: 12
+line predict pairs: 12
+line error pairs: 0
+line true positive: 0
+line true negative: 29
+line false positive: 13
+line false negative: 6
+line SEN: 0.00%
+line PPV: 0.00%
+line MCC: -23.04%
+
+Compare result
+=====================
+all actual pairs: 658
+all predict pairs: 651
+all error pairs: 0
+all true positive: 470
+all true negative: 1004
+all false positive: 190
+all false negative: 69
+average SEN: 71.92%
+average PPV: 72.33%
+average MCC: 65.22%

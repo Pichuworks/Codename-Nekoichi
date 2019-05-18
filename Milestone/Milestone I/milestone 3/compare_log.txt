@@ -1,0 +1,76 @@
+compare epoch 0
+=====================
+line count: 117
+corrent line count: 93
+only acc = 0.7948717948717948
+line acc = 0.7948717948717948
+
+compare epoch 1
+=====================
+line count: 119
+corrent line count: 99
+only acc = 0.8319327731092437
+line acc = 0.8319327731092437
+
+compare epoch 2
+=====================
+line count: 70
+corrent line count: 27
+only acc = 0.44285714285714284
+line acc = 0.38571428571428573
+
+compare epoch 3
+=====================
+line count: 117
+corrent line count: 73
+only acc = 0.6324786324786325
+line acc = 0.6239316239316239
+
+compare epoch 4
+=====================
+line count: 117
+corrent line count: 96
+only acc = 0.8205128205128205
+line acc = 0.8205128205128205
+
+compare epoch 5
+=====================
+line count: 114
+corrent line count: 90
+only acc = 0.7894736842105263
+line acc = 0.7894736842105263
+
+compare epoch 6
+=====================
+line count: 111
+corrent line count: 89
+only acc = 0.8018018018018018
+line acc = 0.8018018018018018
+
+compare epoch 7
+=====================
+line count: 120
+corrent line count: 96
+only acc = 0.8
+line acc = 0.8
+
+compare epoch 8
+=====================
+line count: 132
+corrent line count: 56
+only acc = 0.4772727272727273
+line acc = 0.42424242424242425
+
+compare epoch 9
+=====================
+line count: 112
+corrent line count: 93
+only acc = 0.8303571428571429
+line acc = 0.8303571428571429
+
+compare result
+=====================
+all count: 1129
+corrent all count: 812
+all only acc = 0.7201062887511072
+all acc = 0.7192205491585474
